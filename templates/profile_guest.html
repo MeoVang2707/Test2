@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<title>My profile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="shortcut icon" href="http://vanvat.net/hinhanh/anhto/1493hinh-anh-cu-meo-cartoon-dang-yeu.jpg" />
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+.w3-sidenav a,.w3-sidenav h4 {font-weight:bold}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidenav/menu -->
+<nav class="w3-sidenav w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidenav"><br>
+  <div class="w3-container">
+{#    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding" title="close menu">#}
+{#      <i class="fa fa-remove"></i>#}
+{#    </a>#}
+    <img src="http://vanvat.net/hinhanh/anhto/1493hinh-anh-cu-meo-cartoon-dang-yeu.jpg" style="width:45%;" class="w3-round w3-center"><br><br>
+    <h4 class="w3-padding-0"><b>{{ user.Name }}</b></h4>
+{#    <p class="w3-text-grey">Template by W3.CSS</p>#}
+  </div>
+  <a onclick="w3_close()" class="w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>{{ user.Name }} profile</a>
+  <a onclick="w3_close()" class="w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i> Contact: {{ user.Contact }}</a>
+{#  <a href="#contact" onclick="w3_close()" class="w3-padding"><i class="	fa fa-cloud-upload fa-fw w3-margin-right"></i>Thêm đồ cần bán</a>#}
+  <a href="http://127.0.0.1:5000/Home_page/{{ name }}" onclick="w3_close()" class="w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Trang chủ</a>
+{#  <a href="logout" onclick="w3_close()" class="w3-padding"><i class="fa fa-sign-out fa-fw w3-margin-right"></i>Đăng xuất</a>#}
+  <a href="http://127.0.0.1:5000/profile/{{ name }}" onclick="w3_close()" class="w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Your profile</a>
+
+  <div class="w3-section w3-padding-top w3-large">
+    <a class="w3-hover-white w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-facebook-official"></i></a>
+    <a class="w3-hover-white w3-hover-text-red w3-show-inline-block"><i class="fa fa-pinterest-p"></i></a>
+    <a class="w3-hover-white w3-hover-text-light-blue w3-show-inline-block"><i class="fa fa-twitter"></i></a>
+    <a class="w3-hover-white w3-hover-text-grey w3-show-inline-block"><i class="fa fa-flickr"></i></a>
+    <a class="w3-hover-white w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-linkedin"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header class="w3-container" id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <h1><b>Tất cả sản phẩm của {{ user.Name }}</b></h1>
+{#    <div class="w3-section w3-bottombar w3-padding-16">#}
+{#      <span class="w3-margin-right">Filter:</span>#}
+{#      <button class="w3-btn">ALL</button>#}
+{#      <button class="w3-btn w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>#}
+{#      <button class="w3-btn w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>#}
+{#      <button class="w3-btn w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>#}
+{#    </div>#}
+  </header>
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+      {% for key in user.Product %}
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img src="{{ key.Image }}" alt="Norway" style="width:100%" height="300" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Tên: </b>{{ key.Name }}</p>
+            <p><b>Giá: </b>{{ key.Price }}</p>
+{#            <a href="http://127.0.0.1:5000">Delete</a>#}
+          </div>
+        </div>
+      {% endfor %}
+  </div>
+
+  <!-- Contact Section -->
+{#  <div class="w3-container w3-padding-large w3-grey">#}
+{#    <h4 id="contact"><b>Thêm sản phẩm muốn bán</b></h4>#}
+{#    <hr class="w3-opacity">#}
+{#    <form method="post" action="{{ url_for("profile", name = user.Name) }}" enctype="multipart/form-data">#}
+{#      <div class="w3-group">#}
+{#        <label>Tên sản phẩm</label>#}
+{#        <input class="w3-input w3-border" type="text" name="name">#}
+{#      </div>#}
+{#      <div class="w3-group">#}
+{#        <label>Giá bán:</label>#}
+{#        <input class="w3-input w3-border" type="text" name="price">#}
+{#      </div>#}
+{#      <div class="w3-group">#}
+{#        <label>Ảnh sản phẩm</label>#}
+{#        <input class="w3-input w3-border" type="file" name="image">#}
+{#      </div>#}
+{#      <button type="button" class="w3-btn w3-padding-large w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i><input type="submit" value="Thêm"></button>#}
+{#      <input type="submit" value="Thêm">#}
+{#    </form>#}
+{#  </div>#}
+
+</body>
+</html>
+
