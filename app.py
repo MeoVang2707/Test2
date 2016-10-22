@@ -72,7 +72,7 @@ def profile(name):
     else:
         return redirect(url_for("login"))
 
-@app.route('/')
+# @app.route('/')
 @app.route('/login', methods=["GET", "POST"])
 def login():
     if request.method == "GET":
@@ -126,7 +126,7 @@ def register():
             return redirect(url_for("register"))
 
 # Search = []
-# @app.route('/')
+@app.route('/')
 @app.route('/Home_page', methods=["GET", "POST"])
 def home_page2():
     if request.method == "GET":
