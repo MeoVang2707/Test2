@@ -46,7 +46,8 @@ def profile(name):
             if name == key.Name:
                 user = key
                 break
-        if user_fail["Name"] == name:
+        if "user" in session and session["user"] == name:
+        # if user_fail["Name"] == name:
             if request.method == "GET":
                 return render_template("profile.html", user = user)
             elif request.method == "POST":
@@ -68,7 +69,7 @@ def profile(name):
                         # key.save()
                     return render_template("profile.html", user = user)
         else:
-            return render_template("profile_guest.html", user = user, name = user_fail["Name"])
+            return render_template("profile_guest.html", user = user, name = session["user"])
     else:
         return redirect(url_for("login"))
 
@@ -88,7 +89,8 @@ def login():
             else:
                 session["loggedin"] = False
         if session["loggedin"]:
-            user_fail["Name"] = key.Name
+            session["user"] = key.Name
+            # user_fail["Name"] = key.Name
             # user_fail["Contact"] = key.Contact
             # user_fail["Product_name"] = key.Name
             return redirect(url_for("profile", name=user.Name))
@@ -117,7 +119,8 @@ def register():
         if session["loggedin"]:
             user = Person(Name = username, Password =password, Contact = contact, Product = [])
             user.save()
-            user_fail["Name"] = user.Name
+            session["user"] = user.Name
+            # user_fail["Name"] = user.Name
             return redirect(url_for("profile", name = username))
         else:
             return redirect(url_for("register"))
@@ -158,7 +161,8 @@ def home_page2():
 def home_page(name):
     name_user = name
     if "loggedin" in session and session["loggedin"]:
-        if user_fail["Name"] == name:
+        if "user" in session and session["user"] == name:
+        # if user_fail["Name"] == name:
             if request.method == "GET":
                 return render_template("home_page_name.html", user_list = Person.objects, name = name_user)
             elif request.method == "POST":
@@ -189,7 +193,7 @@ def home_page(name):
                 return render_template("search.html", search_list = Search, search_key=search_key_0, name = name_user)
         else:
             if request.method == "GET":
-                return render_template("home_page_name_guest.html", user_list = Person.objects, name = user_fail["Name"])
+                return render_template("home_page_name_guest.html", user_list = Person.objects, name = session["user"])
             elif request.method == "POST":
                 search_key_0 = request.form["search"]
                 search_key = search_key_0.upper()
@@ -215,7 +219,7 @@ def home_page(name):
                                         Search_result = True
                                     if Search_result:
                                         Search.append(Search_list)
-                return render_template("search.html", search_list = Search, search_key=search_key_0, name = user_fail["Name"])
+                return render_template("search.html", search_list = Search, search_key=search_key_0, name = session["user"])
     else:
         return render_template("login.html")
 
