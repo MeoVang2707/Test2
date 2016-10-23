@@ -135,25 +135,26 @@ def home_page2():
         search_key_0 = request.form["search"]
         search_key = search_key_0.upper()
         search_list = search_key.split()
+        Search = []
         for key_search in search_list:
             for person in Person.objects:
                 for product in person.Product:
-                    # print(product['Name'])
                     product_list_0 = product['Name'].upper()
                     product_list = product_list_0.split()
                     for key_product in product_list:
+                        Search_list = {}
                         if key_product == key_search:
-                            Test["user"] = person.Name
-                            Test["contact"] = person.Contact
-                            Test["product_name"] = product['Name']
-                            Test["product_price"] = product['Price']
-                            Test["product_image"] = product['Image']
-                            if Test in Search:
+                            Search_list["user"] = person.Name
+                            Search_list["contact"] = person.Contact
+                            Search_list["product_name"] = product['Name']
+                            Search_list["product_price"] = product['Price']
+                            Search_list["product_image"] = product['Image']
+                            if Search_list in Search:
                                 Search_result = False
                             else:
                                 Search_result = True
                             if Search_result:
-                                Search.append(Test)
+                                Search.append(Search_list)
         return render_template("search2.html", search_list = Search, search_key = search_key_0)
 
 @app.route('/Home_page/<name>', methods=["GET", "POST"])
