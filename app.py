@@ -108,9 +108,6 @@ def register():
         username = request.form["name"]
         password = request.form["password"]
         contact = request.form["contact"]
-        print(username)
-        print(password)
-        print(contact)
         for key in Person.objects:
             if username == key.Name:
                 session["loggedin"] = False
