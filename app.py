@@ -114,6 +114,7 @@ def delete(name_product, name_user):
                 user_delete.Product.remove(product)
                 user_delete.Product.save()
         Person.objects.save()
+        return redirect(url_for("profile", name = user.Name))
         # product_list = user_delete.Product
 
 

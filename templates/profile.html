@@ -59,7 +59,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
             <p><b>Tên: </b>{{ key.Name }}</p>
             <p><b>Giá: </b>{{ key.Price }}</p>
             <form method="post" action="{{ url_for("delete", name_product = key.Name, name_user = user.Name) }}" enctype="multipart/form-data">
-                <input type="submit" value="Thêm">
+                <input type="submit" value="Xóa">
             </form>
 {#            <a href="http://127.0.0.1:5000">Delete</a>#}
           </div>
