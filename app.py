@@ -102,20 +102,20 @@ def logout():
     session["loggedin"] = False
     return redirect(url_for("login"))
 
-@app.route('/delete')
-def delete(name_product, name_user):
-    if request.method == "POST":
-        for user in Person.objects:
-            if user.Name == name_user:
-                user_delete = user
-                break
-        for product in user_delete.Product:
-            if product["Name"] == name_product:
-                user_delete.Product.remove(product)
-                user_delete.Product.save()
-        Person.objects.save()
-        return redirect(url_for("profile", name = user.Name))
-        # product_list = user_delete.Product
+# @app.route('/delete')
+# def delete(name_product, name_user):
+#     if request.method == "POST":
+#         for user in Person.objects:
+#             if user.Name == name_user:
+#                 user_delete = user
+#                 break
+#         for product in user_delete.Product:
+#             if product["Name"] == name_product:
+#                 user_delete.Product.remove(product)
+#                 user_delete.Product.save()
+#         Person.objects.save()
+#         return redirect(url_for("profile", name = user.Name))
+#         # product_list = user_delete.Product
 
 
 @app.route('/register', methods=["GET", "POST"])
@@ -176,7 +176,7 @@ def home_page2():
             return render_template("search.html", search_list=Search, search_key=search_key_0, name = session["user"])
     else:
         if request.method == "GET":
-            return render_template("home_page2.html", user_list = Person.objects)
+            return render_template("landing.html", user_list = Person.objects)
         if request.method == "POST":
             search_key_0 = request.form["search"]
             search_key = search_key_0.upper()
