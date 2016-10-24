@@ -129,33 +129,63 @@ def register():
 @app.route('/')
 @app.route('/Home_page', methods=["GET", "POST"])
 def home_page2():
-    if request.method == "GET":
-        return render_template("home_page2.html", user_list = Person.objects)
-    if request.method == "POST":
-        search_key_0 = request.form["search"]
-        search_key = search_key_0.upper()
-        search_list = search_key.split()
-        Search = []
-        for key_search in search_list:
-            for person in Person.objects:
-                for product in person.Product:
-                    product_list_0 = product['Name'].upper()
-                    product_list = product_list_0.split()
-                    for key_product in product_list:
-                        Search_list = {}
-                        if key_product == key_search:
-                            Search_list["user"] = person.Name
-                            Search_list["contact"] = person.Contact
-                            Search_list["product_name"] = product['Name']
-                            Search_list["product_price"] = product['Price']
-                            Search_list["product_image"] = product['Image']
-                            if Search_list in Search:
-                                Search_result = False
-                            else:
-                                Search_result = True
-                            if Search_result:
-                                Search.append(Search_list)
-        return render_template("search2.html", search_list = Search, search_key = search_key_0)
+    if "loggedin" in session and session["loggedin"] and "user" in session:
+        if request.method == "GET":
+            return render_template("home_page_name.html", user_list=Person.objects, name = session["user"])
+        elif request.method == "POST":
+            search_key_0 = request.form["search"]
+            search_key = search_key_0.upper()
+            search_list = search_key.split()
+            Search = []
+            for key_search in search_list:
+                for person in Person.objects:
+                    for product in person.Product:
+                        # print(product['Name'])
+                        product_list_0 = product['Name'].upper()
+                        product_list = product_list_0.split()
+                        for key_product in product_list:
+                            Search_list = {}
+                            if key_product == key_search:
+                                Search_list["user"] = person.Name
+                                Search_list["contact"] = person.Contact
+                                Search_list["product_name"] = product['Name']
+                                Search_list["product_price"] = product['Price']
+                                Search_list["product_image"] = product['Image']
+                                if Search_list in Search:
+                                    Search_result = False
+                                else:
+                                    Search_result = True
+                                if Search_result:
+                                    Search.append(Search_list)
+            return render_template("search.html", search_list=Search, search_key=search_key_0, name = session["user"])
+    else:
+        if request.method == "GET":
+            return render_template("home_page2.html", user_list = Person.objects)
+        if request.method == "POST":
+            search_key_0 = request.form["search"]
+            search_key = search_key_0.upper()
+            search_list = search_key.split()
+            Search = []
+            for key_search in search_list:
+                for person in Person.objects:
+                    for product in person.Product:
+                        product_list_0 = product['Name'].upper()
+                        product_list = product_list_0.split()
+                        for key_product in product_list:
+                            Search_list = {}
+                            if key_product == key_search:
+                                Search_list["user"] = person.Name
+                                Search_list["contact"] = person.Contact
+                                Search_list["product_name"] = product['Name']
+                                Search_list["product_price"] = product['Price']
+                                Search_list["product_image"] = product['Image']
+                                if Search_list in Search:
+                                    Search_result = False
+                                else:
+                                    Search_result = True
+                                if Search_result:
+                                    Search.append(Search_list)
+            return render_template("search2.html", search_list = Search, search_key = search_key_0)
 
 @app.route('/Home_page/<name>', methods=["GET", "POST"])
 def home_page(name):
