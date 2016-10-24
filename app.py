@@ -77,7 +77,7 @@ def profile(name):
 @app.route('/login', methods=["GET", "POST"])
 def login():
     if request.method == "GET":
-        return render_template("login.html")
+        return render_template("login_signup.html")
     elif request.method == "POST":
         username = request.form["usrname"]
         password = request.form["psw"]
@@ -221,7 +221,7 @@ def home_page(name):
                                         Search.append(Search_list)
                 return render_template("search.html", search_list = Search, search_key=search_key_0, name = session["user"])
     else:
-        return render_template("login.html")
+        return render_template("login_signup.html")
 
 if __name__ == '__main__':
     app.run()
