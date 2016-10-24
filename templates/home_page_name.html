@@ -58,7 +58,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       {% for user in user_list %}
           {% for product in user.Product %}
             <div class="w3-third w3-container w3-margin-bottom">
-              <img src="{{ product.Image }}" alt="Norway" style="width:100%" height="450" class="w3-hover-opacity">
+              <img src="{{ product.Image }}" alt="{{ product.Name }}" style="width:100%" height="450" class="w3-hover-opacity">
               <div class="w3-container w3-white">
                 <p><b>Tên: </b>{{ product.Name }}</p>
                 <p><b>Giá: </b>{{ product.Price }}</p>
