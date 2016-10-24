@@ -102,6 +102,21 @@ def logout():
     session["loggedin"] = False
     return redirect(url_for("login"))
 
+@app.route('/delete')
+def delete(name_product, name_user):
+    if request.method == "POST":
+        for user in Person.objects:
+            if user.Name == name_user:
+                user_delete = user
+                break
+        for product in user_delete.Product:
+            if product["Name"] == name_product:
+                user_delete.Product.remove(product)
+                user_delete.Product.save()
+        Person.objects.save()
+        # product_list = user_delete.Product
+
+
 @app.route('/register', methods=["GET", "POST"])
 def register():
     if request.method == "GET":

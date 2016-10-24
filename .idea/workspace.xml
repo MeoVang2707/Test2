@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Test2$Test2.coverage" NAME="Test2 Coverage Results" MODIFIED="1477318541289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Test2$Test2.coverage" NAME="Test2 Coverage Results" MODIFIED="1477321418114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -24,15 +24,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
               <folding>
                 <element signature="e#576#602#0" expanded="false" />
-                <element signature="e#712#815#0" expanded="false" />
+                <element signature="e#4812#8083#0" expanded="false" />
+                <element signature="e#8167#11923#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_signup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login_signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="90" column="62" selection-start-line="90" selection-start-column="62" selection-end-line="90" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,8 +51,18 @@
       <file leaf-file-name="home_page_name.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home_page_name.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="17">
               <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="60" column="108" selection-start-line="60" selection-start-column="108" selection-end-line="60" selection-end-column="108" />
               <folding />
             </state>
           </provider>
@@ -81,7 +102,6 @@
         <option value="$PROJECT_DIR$/static/googleapis.css" />
         <option value="$PROJECT_DIR$/static/cloudflare.css" />
         <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/templates/profile.html" />
         <option value="$PROJECT_DIR$/templates/profile_guest.html" />
         <option value="$PROJECT_DIR$/templates/search2.html" />
         <option value="$PROJECT_DIR$/templates/login_signup.html" />
@@ -90,6 +110,7 @@
         <option value="$PROJECT_DIR$/templates/home_page_name.html" />
         <option value="$PROJECT_DIR$/templates/search.html" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/templates/profile.html" />
       </list>
     </option>
   </component>
@@ -529,7 +550,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#712#815#0" expanded="false" />
+            <element signature="e#4812#8083#0" expanded="false" />
+            <element signature="e#8167#11923#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -540,7 +562,8 @@
           <caret line="213" column="50" selection-start-line="213" selection-start-column="50" selection-end-line="213" selection-end-column="50" />
           <folding>
             <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#712#815#0" expanded="false" />
+            <element signature="e#4812#8083#0" expanded="false" />
+            <element signature="e#8167#11923#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -559,7 +582,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#712#815#0" expanded="false" />
+            <element signature="e#4812#8083#0" expanded="false" />
+            <element signature="e#8167#11923#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -573,7 +597,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#712#815#0" expanded="false" />
+            <element signature="e#4812#8083#0" expanded="false" />
+            <element signature="e#8167#11923#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -586,7 +611,8 @@
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#712#815#0" expanded="false" />
+            <element signature="e#4812#8083#0" expanded="false" />
+            <element signature="e#8167#11923#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -598,7 +624,8 @@
           <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding>
             <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#712#815#0" expanded="false" />
+            <element signature="e#4812#8083#0" expanded="false" />
+            <element signature="e#8167#11923#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -617,7 +644,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#712#815#0" expanded="false" />
+            <element signature="e#4812#8083#0" expanded="false" />
+            <element signature="e#8167#11923#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -629,7 +657,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#712#815#0" expanded="false" />
+            <element signature="e#4812#8083#0" expanded="false" />
+            <element signature="e#8167#11923#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -641,7 +670,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#712#815#0" expanded="false" />
+            <element signature="e#4812#8083#0" expanded="false" />
+            <element signature="e#8167#11923#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -653,7 +683,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#712#815#0" expanded="false" />
+            <element signature="e#4812#8083#0" expanded="false" />
+            <element signature="e#8167#11923#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -685,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login_signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../hackathon/hackathon.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -710,13 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-100">
           <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="28" column="62" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="159" />
         </state>
       </provider>
     </entry>
@@ -748,22 +765,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home_page_name.html">
+    <entry file="file://$PROJECT_DIR$/templates/login_signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="93">
+          <caret line="90" column="62" selection-start-line="90" selection-start-column="62" selection-end-line="90" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
           <folding>
             <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#712#815#0" expanded="false" />
+            <element signature="e#4812#8083#0" expanded="false" />
+            <element signature="e#8167#11923#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home_page_name.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="60" column="108" selection-start-line="60" selection-start-column="108" selection-end-line="60" selection-end-column="108" />
+          <folding />
         </state>
       </provider>
     </entry>
