@@ -102,7 +102,7 @@ def logout():
     session["loggedin"] = False
     return redirect(url_for("login"))
 
-@app.route('/delete')
+@app.route('/delete/<name_user>/<name_product>')
 def delete(name_product, name_user):
     if request.method == "POST":
         for user in Person.objects:
