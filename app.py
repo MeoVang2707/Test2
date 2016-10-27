@@ -104,17 +104,18 @@ def logout():
 
 @app.route('/delete/<name_user>/<name_product>')
 def delete(name_product, name_user):
-    if request.method == "POST":
-        for user in Person.objects:
-            if user.Name == name_user:
-                user_delete = user
-                break
-        for product in user_delete.Product:
-            if product["Name"] == name_product:
-                user_delete.Product.remove(product)
-                user_delete.Product.save()
-        Person.objects.save()
-        return redirect(url_for("profile", name = user.Name))
+    # if request.method == "POST":
+    for user in Person.objects:
+        if user.Name == name_user:
+            user_delete = user
+            break
+    for product in user_delete.Product:
+        if product["Name"] == name_product:
+            user_delete.Product.remove(product)
+            user_delete.save()
+            break
+    # Person.objects.save()
+    return redirect(url_for("profile", name = user.Name))
         # product_list = user_delete.Product
 
 
