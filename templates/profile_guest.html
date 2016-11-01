@@ -18,11 +18,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <img src="http://vanvat.net/hinhanh/anhto/1493hinh-anh-cu-meo-cartoon-dang-yeu.jpg" style="width:45%;" class="w3-round w3-center"><br><br>
     <h4 class="w3-padding-0"><b>{{ user.Name }}</b></h4>
   </div>
-  <a onclick="w3_close()" class="w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>{{ user.Name }} profile</a>
-  <a onclick="w3_close()" class="w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i> Contact: {{ user.Contact }}</a>
-{#  <a href="#contact" onclick="w3_close()" class="w3-padding"><i class="	fa fa-cloud-upload fa-fw w3-margin-right"></i>Thêm đồ cần bán</a>#}
-  <a href="https://test-2-howly.herokuapp.com/Home_page/{{ name }}" onclick="w3_close()" class="w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Trang chủ</a>
-  <a href="https://test-2-howly.herokuapp.com/profile/{{ name }}" onclick="w3_close()" class="w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Your profile</a>
+  <a onclick="w3_close()" class="w3-padding"><i class="material-icons">person</i> {{ user.Name }} profile</a>
+  <a onclick="w3_close()" class="w3-padding"><i class="material-icons">local_phone</i> Contact: {{ user.Contact }}</a>
+  <a href="https://test-2-howly.herokuapp.com/Home_page/{{ name }}" onclick="w3_close()" class="w3-padding"><i class="material-icons">home</i>Trang chủ</a>
+  <a href="https://test-2-howly.herokuapp.com/profile/{{ name }}" onclick="w3_close()" class="w3-padding"><i class="material-icons">person</i>Your profile</a>
 
   <div class="w3-section w3-padding-top w3-large">
     <a class="w3-hover-white w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-facebook-official"></i></a>

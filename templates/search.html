@@ -20,18 +20,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     </a>
     <img src="http://vanvat.net/hinhanh/anhto/1493hinh-anh-cu-meo-cartoon-dang-yeu.jpg" style="width:45%;" class="w3-round w3-center"><br><br>
     <h4 class="w3-padding-0"><b>Cú mèo</b></h4>
-{#    <p class="w3-text-grey">Template by W3.CSS</p>#}
   </div>
-  <a href="https://test-2-howly.herokuapp.com" onclick="w3_close()" class="w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Trang chủ</a>
-  <a href= "https://test-2-howly.herokuapp.com/profile/{{ name }}" onclick="w3_close()" class="w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Trang cá nhân</a>
-{#  <a href="http://127.0.0.1:5000/register" class="w3-padding"><i class="	fa fa-cloud-upload fa-fw w3-margin-right"></i>Register</a>#}
-  <a href="https://test-2-howly.herokuapp.com/logout" onclick="w3_close()" class="w3-padding"><i class="fa fa-sign-out fa-fw w3-margin-right"></i>Đăng xuất</a>
+  <a href="https://test-2-howly.herokuapp.com" onclick="w3_close()" class="w3-padding"><i class="material-icons">home</i>Trang chủ</a>
+  <a href= "https://test-2-howly.herokuapp.com/profile/{{ name }}" onclick="w3_close()" class="w3-padding"><i class="material-icons">person</i>Trang cá nhân</a>
+  <a href="https://test-2-howly.herokuapp.com/logout" onclick="w3_close()" class="w3-padding"><i class="material-icons">block</i>Đăng xuất</a>
   <form method="post" action="{{ url_for("home_page", name = name) }}" class="w3-container" action="form.asp">
       <input class="w3-input w3-border w3-margin-bottom" type="text" name="search">
       <input type="submit" value="Search">
   </form>
-{#  <a href="http://127.0.0.1:5000/logout" onclick="w3_close()" class="w3-padding"><i class="fa fa-sign-out fa-fw w3-margin-right"></i>Logout</a>#}
-
   <div class="w3-section w3-padding-top w3-large">
     <a class="w3-hover-white w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-facebook-official"></i></a>
     <a class="w3-hover-white w3-hover-text-red w3-show-inline-block"><i class="fa fa-pinterest-p"></i></a>
