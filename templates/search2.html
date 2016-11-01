@@ -20,16 +20,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     </a>
     <img src="http://vanvat.net/hinhanh/anhto/1493hinh-anh-cu-meo-cartoon-dang-yeu.jpg" style="width:45%;" class="w3-round w3-center"><br><br>
     <h4 class="w3-padding-0"><b>Cú mèo</b></h4>
-{#    <p class="w3-text-grey">Template by W3.CSS</p>#}
   </div>
   <a href="https://test-2-howly.herokuapp.com" onclick="w3_close()" class="w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Trang chủ</a>
   <a href= "https://test-2-howly.herokuapp.com/login" onclick="w3_close()" class="w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Trang cá nhân</a>
-{#  <a href="http://127.0.0.1:5000/register" class="w3-padding"><i class="	fa fa-cloud-upload fa-fw w3-margin-right"></i>Register</a>#}
   <form method="post" action="{{ url_for("home_page2") }}" class="w3-container" action="form.asp">
       <input class="w3-input w3-border w3-margin-bottom" type="text" name="search">
       <input type="submit" value="Search">
   </form>
-{#  <a href="http://127.0.0.1:5000/logout" onclick="w3_close()" class="w3-padding"><i class="fa fa-sign-out fa-fw w3-margin-right"></i>Logout</a>#}
 
   <div class="w3-section w3-padding-top w3-large">
     <a class="w3-hover-white w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-facebook-official"></i></a>
@@ -51,12 +48,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <h1><b>Tìm kiếm: </b>"<i>{{ search_key }}</i>"</h1>
-{#    <div class="w3-section w3-bottombar w3-padding-16">#}
-{#      <span class="w3-margin-right">Filter:</span>#}
-{#      <button class="w3-btn">ALL</button>#}
-{#      <button class="w3-btn w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>#}
-{#      <button class="w3-btn w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>#}
-{#      <button class="w3-btn w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>#}
 {#    </div>#}
   </header>
 
@@ -70,33 +61,63 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
             <p><b>Giá: </b>{{ search.product_price }}</p>
             <p><b>Người bán: </b><a href="https://test-2-howly.herokuapp.com/profile/{{ search.user }}">{{ search.user }}</a></p>
             <p><b>Liên hệ: </b>{{ search.contact }}</p>
-{#            <a href="http://127.0.0.1:5000">Delete</a>#}
           </div>
         </div>
       {% endfor %}
   </div>
 
-{#  <!-- Contact Section -->#}
-{#  <div class="w3-container w3-padding-large w3-grey">#}
-{#    <h4 id="contact"><b>Thêm sản phẩm muốn bán</b></h4>#}
-{#    <hr class="w3-opacity">#}
-{#    <form method="post" action="{{ url_for("profile", name = user.Name) }}" enctype="multipart/form-data">#}
-{#      <div class="w3-group">#}
-{#        <label>Tên sản phẩm</label>#}
-{#        <input class="w3-input w3-border" type="text" name="name">#}
-{#      </div>#}
-{#      <div class="w3-group">#}
-{#        <label>Giá bán:</label>#}
-{#        <input class="w3-input w3-border" type="text" name="price">#}
-{#      </div>#}
-{#      <div class="w3-group">#}
-{#        <label>Ảnh sản phẩm</label>#}
-{#        <input class="w3-input w3-border" type="file" name="image">#}
-{#      </div>#}
-{#      <button type="button" class="w3-btn w3-padding-large w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i><input type="submit" value="Thêm"></button>#}
-{#      <input type="submit" value="Thêm">#}
-{#    </form>#}
-{#  </div>#}
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+
+</div>
+
+<script>
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
 
 </body>
 </html>
