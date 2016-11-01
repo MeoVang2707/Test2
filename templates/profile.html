@@ -16,12 +16,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 <!-- Sidenav/menu -->
 <nav class="w3-sidenav w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidenav"><br>
   <div class="w3-container">
-{#    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding" title="close menu">#}
-{#      <i class="fa fa-remove"></i>#}
-{#    </a>#}
     <img src="http://vanvat.net/hinhanh/anhto/1493hinh-anh-cu-meo-cartoon-dang-yeu.jpg" style="width:45%;" class="w3-round w3-center"><br><br>
     <h4 class="w3-padding-0"><b>{{ user.Name }}</b></h4>
-{#    <p class="w3-text-grey">Template by W3.CSS</p>#}
   </div>
   <a onclick="w3_close()" class="w3-padding"><i class="material-icons">person</i>  My profile</a>
   <a onclick="w3_close()" class="w3-padding"><i class="material-icons">local_phone</i> Contact: {{ user.Contact }}</a>
@@ -59,7 +55,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
           <div class="w3-container w3-white">
             <p><b>Tên: </b>{{ key.Name }}</p>
             <p><b>Giá: </b>{{ key.Price }}</p>
-            <p><button onclick="document.getElementById('{{ key.Name }}').style.display='block'">Edit</button>
+            <p><button onclick="document.getElementById('{{ key.Name }}').style.display='block'" class="w3-green"><i class="material-icons">mode_edit</i>  Edit</button>   <button class="w3-green"><i class="material-icons">delete</i><a href="https://test-2-howly.herokuapp.com/delete/{{ user.Name }}/{{ key.Name }}">  Delete</a></button></p>
             <div id="{{ key.Name }}" class="w3-modal">
                 <div class="w3-modal-content w3-card-8 w3-animate-zoom" style="max-width:600px">
                   <div class="w3-center"><br>
@@ -76,7 +72,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
                   </form>
                 </div>
             </div>
-            <a href="https://test-2-howly.herokuapp.com/delete/{{ user.Name }}/{{ key.Name }}">Delete</a>
+
           </div>
         </div>
       {% endfor %}
@@ -99,8 +95,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         <label>Ảnh sản phẩm</label>
         <input class="w3-input w3-border" type="file" name="image">
       </div>
-{#      <button type="button" class="w3-btn w3-padding-large w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i><input type="submit" value="Thêm"></button>#}
-      <input type="submit" value="Thêm">
+      <button type="submit" class="w3-btn w3-padding w3-margin-bottom"><i class="material-icons">add</i>  Thêm</button>
     </form>
   </div>
 
