@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="../static/w3c.css">
 <link rel="stylesheet" href="../static/googleapis.css">
 <link rel="stylesheet" href="../static/cloudflare.css">
+<link rel="stylesheet" href="../static/googleapis3.css">
 <link rel="shortcut icon" href="http://vanvat.net/hinhanh/anhto/1493hinh-anh-cu-meo-cartoon-dang-yeu.jpg" />
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
@@ -26,7 +27,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <a href="https://test-2-howly.herokuapp.com/logout" onclick="w3_close()" class="w3-padding"><i class="material-icons">block</i>Đăng xuất</a>
   <form method="post" action="{{ url_for("home_page", name = name) }}" class="w3-container" action="form.asp">
       <input class="w3-input w3-border w3-margin-bottom" type="text" name="search">
-      <input type="submit" value="Search">
+      <button type="submit" class="w3-orange" value="Search"><i class="material-icons">search</i> Tìm kiếm</button>
   </form>
   <div class="w3-section w3-padding-top w3-large">
     <a class="w3-hover-white w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-facebook-official"></i></a>
