@@ -142,7 +142,7 @@ def edit(product_name, name_user, product_price):
 @app.route('/register', methods=["GET", "POST"])
 def register():
     if request.method == "GET":
-        return render_template("register.html")
+        return redirect(url_for("login"))
     elif request.method == "POST":
         username = request.form["name"]
         password = request.form["password"]
