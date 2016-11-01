@@ -118,6 +118,26 @@ def delete(name_product, name_user):
     return redirect(url_for("profile", name = user.Name))
         # product_list = user_delete.Product
 
+@app.route('/edit/<name_user>/<product_name>/<product_price>', methods=["GET", "POST"])
+def edit(product_name, name_user, product_price):
+    if request.method == "GET":
+        return "get"
+    elif request.method == "POST":
+        Name = request.form["edit_name"]
+        Price = request.form["edit_price"]
+        for user in Person.objects:
+            if user.Name == name_user:
+                user_edit = user
+                break
+        for product in user_edit.Product:
+            if product["Name"] == product_name and product["Price"] == product_price :
+                if Name != "":
+                    product["Name"] = Name
+                if Price != "":
+                    product["Price"] = Price
+                user_edit.save()
+                break
+        return redirect(url_for("profile", name = user_edit.Name))
 
 @app.route('/register', methods=["GET", "POST"])
 def register():
