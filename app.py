@@ -10,6 +10,8 @@ port = 53126
 user_name = "hoang"
 password = "0986369617"
 
+
+
 connect(db_name,
         host=host,
         port=port,
@@ -24,11 +26,11 @@ app.config["UPLOADS_IMAGE"] = UPLOADS_IMAGE
 app.config["SECRET_KEY"] = "ahihi. do's ngok's."
 
 
-# class Product(Document):
-#     Name = StringField()
-#     Price = IntField()
-#     Image = StringField()
-
+class Product_all(Document):
+    Name = StringField()
+    Price = IntField()
+    Image = StringField()
+    User = StringField
 class Person(Document):
     Name = StringField()
     Password = StringField()
