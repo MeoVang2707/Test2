@@ -26,11 +26,13 @@ app.config["UPLOADS_IMAGE"] = UPLOADS_IMAGE
 app.config["SECRET_KEY"] = "ahihi. do's ngok's."
 
 
-class Product_all(Document):
-    Name = StringField()
-    Price = IntField()
-    Image = StringField()
-    User = StringField
+# class Product_all(Document):
+#     Name = StringField()
+#     Price = IntField()
+#     Image = StringField()
+#     User_name = StringField()
+#     User_contact = StringField()
+
 class Person(Document):
     Name = StringField()
     Password = StringField()
@@ -66,9 +68,6 @@ def profile(name):
                     Test["Image"] = Image_link_fake
                     user.Product.append(Test)
                     user.save()
-                    # for key in Person.objects:
-                        # key.Product.append(Test)
-                        # key.save()
                     return render_template("profile.html", user = user)
         else:
             return render_template("profile_guest.html", user = user, name = session["user"])
