@@ -161,7 +161,6 @@ def register():
         else:
             return redirect(url_for("register"))
 
-# Search = []
 @app.route('/')
 @app.route('/Home_page', methods=["GET", "POST"])
 def home_page2():
@@ -195,7 +194,7 @@ def home_page2():
             return render_template("search.html", search_list=Search, search_key=search_key_0, name = session["user"])
     else:
         if request.method == "GET":
-            return render_template("home_page2.html", user_list = Person.objects)
+            return render_template("test_home_page2.html", user_list = Person.objects)
         if request.method == "POST":
             search_key_0 = request.form["search"]
             search_key = search_key_0.upper()
@@ -288,7 +287,6 @@ def home_page(name):
     else:
         return render_template("login_signup.html")
 
-# @app.route('/')
 @app.route('/Home_page/nhohon20k', methods=["GET", "POST"])
 def min_20k():
     if "loggedin" in session and session["loggedin"] and "user" in session:
