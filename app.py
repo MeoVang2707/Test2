@@ -194,7 +194,7 @@ def home_page2():
             return render_template("search.html", search_list=Search, search_key=search_key_0, name = session["user"])
     else:
         if request.method == "GET":
-            return render_template("test_home_page2.html", user_list = Person.objects)
+            return render_template("home_page2.html", user_list = Person.objects)
         if request.method == "POST":
             search_key_0 = request.form["search"]
             search_key = search_key_0.upper()
