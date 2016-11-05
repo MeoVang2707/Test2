@@ -1,0 +1,18 @@
+{% extends 'test_name.html' %}
+{% block content %}
+    {% for user in user_list %}
+        {% for product in user.Product %}
+            {% if product.Price <= 40 and product.Price > 20 %}
+                <div class=" w3-third w3-container w3-margin-bottom" data-filter = "min">
+                  <img src="{{ product.Image }}" alt="{{ product.Name }}" style="width:100%" height="450" class="w3-hover-opacity">
+                  <div class="w3-container w3-white">
+                    <p><b>Tên: </b>{{ product.Name }}</p>
+                    <p><b>Giá (nghìn VNĐ): </b>{{ product.Price }}</p>
+                    <p><b>Người bán: </b><a href="https://test-2-howly.herokuapp.com/profile/{{ user.Name }}">{{ user.Name }}</a></p>
+                    <p><b>Liên hệ: </b>{{ user.Contact }}</p>
+                  </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endblock %}

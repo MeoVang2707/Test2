@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="../static/googleapis3.css">
 <link rel="stylesheet" href="../static/assets/font-awesome/css/font-awesome.min.css">
 <link rel="shortcut icon" href="http://vanvat.net/hinhanh/anhto/1493hinh-anh-cu-meo-cartoon-dang-yeu.jpg" />
+
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 .w3-sidenav a,.w3-sidenav h4 {font-weight:bold}
@@ -15,14 +16,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
 <!-- Sidenav/menu -->
-<nav class="w3-sidenav w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidenav"><br>
+<nav class="w3-sidenav w3-collapse w3-grey w3-animate-left" style="z-index:3;width:300px;" id="mySidenav"><br>
   <div class="w3-container">
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
     <img src="http://vanvat.net/hinhanh/anhto/1493hinh-anh-cu-meo-cartoon-dang-yeu.jpg" style="width:45%;" class="w3-round w3-center"><br><br>
     <h4 class="w3-padding-0"><b>Cú mèo</b></h4>
-{#    <p class="w3-text-grey">Template by W3.CSS</p>#}
   </div>
   <a href="https://test-2-howly.herokuapp.com" onclick="w3_close()" class="w3-padding"><i class="material-icons">home</i>  Trang chủ</a>
   <a href= "https://test-2-howly.herokuapp.com/login" onclick="w3_close()" class="w3-padding"><i class="material-icons">exit_to_app</i>  Đăng nhập</a>
@@ -50,22 +50,28 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <h1><b>Tất cả sách</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Sách:</span>
+      <button class="w3-btn selected">Tất cả</button>
+      <button class="w3-btn w3-white"><a href="https://test-2-howly.herokuapp.com/Home_page/search/nhohon20k">Ít hơn 20k</a></button>
+      <button class="w3-btn w3-white w3-hide-small"><a href="https://test-2-howly.herokuapp.com/Home_page/search/20kden40k">Từ 20k đến 40k</a></button>
+      <button class="w3-btn w3-white w3-hide-small"><a href="https://test-2-howly.herokuapp.com/Home_page/search/lonhon40k">Trên 40k</a></button>
+    </div>
   </header>
 
   <!-- First Photo Grid-->
   <div class="w3-row-padding">
       {% for user in user_list %}
           {% for product in user.Product %}
-            <div class="w3-third w3-container w3-margin-bottom">
-              <img src="{{ product.Image }}" alt="{{ product.Name }}" style="width:100%" height="450" class="w3-hover-opacity">
-              <div class="w3-container w3-white">
-                <p><b>Tên: </b>{{ product.Name }}</p>
-                <p><b>Giá: </b>{{ product.Price }}</p>
-                <p><b>Người bán: </b><a href="https://test-2-howly.herokuapp.com/profile/{{ user.Name }}">{{ user.Name }}</a></p>
-                <p><b>Liên hệ: </b>{{ user.Contact }}</p>
-    {#            <a href="http://127.0.0.1:5000">Delete</a>#}
-              </div>
-            </div>
+                <div class=" w3-third w3-container w3-margin-bottom">
+                  <img src="{{ product.Image }}" alt="{{ product.Name }}" style="width:100%" height="450" class="w3-hover-opacity">
+                  <div class="w3-container w3-white">
+                    <p><b>Tên: </b>{{ product.Name }}</p>
+                    <p><b>Giá (nghìn VNĐ): </b>{{ product.Price }}</p>
+                    <p><b>Người bán: </b><a href="https://test-2-howly.herokuapp.com/profile/{{ user.Name }}">{{ user.Name }}</a></p>
+                    <p><b>Liên hệ: </b>{{ user.Contact }}</p>
+                  </div>
+                </div>
           {% endfor %}
       {% endfor %}
   </div>

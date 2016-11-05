@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>My profile</title>
+<title>Trang chủ</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="../static/w3c.css">
 <link rel="stylesheet" href="../static/googleapis.css">
@@ -22,10 +22,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     </a>
     <img src="http://vanvat.net/hinhanh/anhto/1493hinh-anh-cu-meo-cartoon-dang-yeu.jpg" style="width:45%;" class="w3-round w3-center"><br><br>
     <h4 class="w3-padding-0"><b>Cú mèo</b></h4>
+{#    <p class="w3-text-grey">Template by W3.CSS</p>#}
   </div>
-  <a href="https://test-2-howly.herokuapp.com" onclick="w3_close()" class="w3-padding"><i class="material-icons">home</i>Trang chủ</a>
-  <a href= "https://test-2-howly.herokuapp.com/profile/{{ name }}" onclick="w3_close()" class="w3-padding"><i class="material-icons">person</i>Trang cá nhân</a>
-  <a href="https://test-2-howly.herokuapp.com/logout" onclick="w3_close()" class="w3-padding"><i class="material-icons">block</i>Đăng xuất</a>
+  <a href="https://test-2-howly.herokuapp.com" onclick="w3_close()" class="w3-padding"><i class="material-icons">home</i>  Trang chủ</a>
+  <a href= "https://test-2-howly.herokuapp.com/profile/{{ name }}" onclick="w3_close()" class="w3-padding"><i class="material-icons">person</i>  Trang cá nhân</a>
+  <a href="https://test-2-howly.herokuapp.com/logout" onclick="w3_close()" class="w3-padding"><i class="material-icons">block</i>  Đăng xuất</a>
   <form method="post" action="{{ url_for("home_page", name = name) }}" class="w3-container" action="form.asp">
       <input class="w3-input w3-border w3-margin-bottom" type="text" name="search">
       <button type="submit" class="w3-orange" value="Search"><i class="material-icons">search</i> Tìm kiếm</button>
@@ -49,23 +50,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <header class="w3-container" id="portfolio">
     <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-    <h1><b>Tìm kiếm: </b>"<i>{{ search_key }}</i>"</h1>
+    <h1><b>Tất cả sách</b></h1>
   </header>
 
   <!-- First Photo Grid-->
-  <div class="w3-row-padding">
-      {% for search in search_list %}
-        <div class="w3-third w3-container w3-margin-bottom">
-          <img src="{{ search.product_image }}" alt="{{ search.product_name }}" style="width:100%" height="450" class="w3-hover-opacity"><br>
-          <div class="w3-container w3-white">
-            <p><b>Tên: </b>{{ search.product_name }}</p>
-            <p><b>Giá (nghìn VNĐ): </b>{{ search.product_price }}</p>
-            <p><b>Người bán: </b><a href="https://test-2-howly.herokuapp.com/profile/{{ search.user }}">{{ search.user }}</a></p>
-            <p><b>Liên hệ: </b>{{ search.contact }}</p>
-          </div>
-        </div>
-      {% endfor %}
-  </div>
+  {% block content %}
+  {% endblock %}
 
   <footer class="w3-container w3-padding-32 w3-dark-grey">
   <div class="w3-row-padding">

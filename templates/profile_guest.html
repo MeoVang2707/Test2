@@ -15,7 +15,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
 <!-- Sidenav/menu -->
-<nav class="w3-sidenav w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidenav"><br>
+<nav class="w3-sidenav w3-collapse w3-grey w3-animate-left" style="z-index:3;width:300px;" id="mySidenav"><br>
   <div class="w3-container">
     <img src="http://vanvat.net/hinhanh/anhto/1493hinh-anh-cu-meo-cartoon-dang-yeu.jpg" style="width:45%;" class="w3-round w3-center"><br><br>
     <h4 class="w3-padding-0"><b>{{ user.Name }}</b></h4>
@@ -54,7 +54,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
           <img src="{{ key.Image }}" alt="{{ key.Name }}" style="width:100%" height="450" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Tên: </b>{{ key.Name }}</p>
-            <p><b>Giá: </b>{{ key.Price }}</p>
+            <p><b>Giá (nghìn VNĐ): </b>{{ key.Price }}</p>
           </div>
         </div>
       {% endfor %}
