@@ -63,7 +63,7 @@ def profile(name):
                     Image.save(Image_link_real)
                     Image_link_fake = "../static/image/" + filename
                     Test["Name"] = Name
-                    Test["Price"] = float(Price)
+                    Test["Price"] = int(Price)
                     Test["Image"] = Image_link_fake
                     user.Product.append(Test)
                     user.save()
