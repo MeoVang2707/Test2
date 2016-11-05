@@ -162,7 +162,7 @@ def register():
             return redirect(url_for("register"))
 
 # Search = []
-@app.route('/')
+# @app.route('/')
 @app.route('/Home_page', methods=["GET", "POST"])
 def home_page2():
     if "loggedin" in session and session["loggedin"] and "user" in session:
@@ -288,9 +288,9 @@ def home_page(name):
     else:
         return render_template("login_signup.html")
 
-# @app.route('/')
+@app.route('/')
 @app.route('/Home_page/search/nhohon20k', methods=["GET", "POST"])
-def min():
+def min_20k():
     if "loggedin" in session and session["loggedin"] and "user" in session:
         if request.method == "GET":
             return render_template("name_20k.html", user_list=Person.objects, name = session["user"])
@@ -349,7 +349,7 @@ def min():
             return render_template("search2.html", search_list = Search, search_key = search_key_0)
 
 @app.route('/Home_page/search/20kden40k', methods=["GET", "POST"])
-def medium():
+def medium_20_40():
     if "loggedin" in session and session["loggedin"] and "user" in session:
         if request.method == "GET":
             return render_template("name_20k_40k.html", user_list=Person.objects, name = session["user"])
@@ -409,7 +409,7 @@ def medium():
             return render_template("search2.html", search_list = Search, search_key = search_key_0)
 
 @app.route('/Home_page/search/lonhon40k', methods=["GET", "POST"])
-def max():
+def max_40():
     if "loggedin" in session and session["loggedin"] and "user" in session:
         if request.method == "GET":
             return render_template("name_40k.html", user_list=Person.objects, name = session["user"])
