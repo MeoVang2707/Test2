@@ -51,7 +51,6 @@ def profile(name):
                 user = key
                 break
         if "user" in session and session["user"] == name:
-        # if user_fail["Name"] == name:
             if request.method == "GET":
                 return render_template("profile.html", user = user)
             elif request.method == "POST":
@@ -64,7 +63,7 @@ def profile(name):
                     Image.save(Image_link_real)
                     Image_link_fake = "../static/image/" + filename
                     Test["Name"] = Name
-                    Test["Price"] = Price
+                    Test["Price"] = float(Price)
                     Test["Image"] = Image_link_fake
                     user.Product.append(Test)
                     user.save()
@@ -158,7 +157,6 @@ def register():
             user = Person(Name = username, Password =password, Contact = contact, Product = [])
             user.save()
             session["user"] = user.Name
-            # user_fail["Name"] = user.Name
             return redirect(url_for("profile", name = username))
         else:
             return redirect(url_for("register"))
@@ -178,7 +176,6 @@ def home_page2():
             for key_search in search_list:
                 for person in Person.objects:
                     for product in person.Product:
-                        # print(product['Name'])
                         product_list_0 = product['Name'].upper()
                         product_list = product_list_0.split()
                         for key_product in product_list:
@@ -291,6 +288,7 @@ def home_page(name):
     else:
         return render_template("login_signup.html")
 
+# @app.route('/')
 @app.route('/Home_page/search/nhohon20k', methods=["GET", "POST"])
 def min():
     if "loggedin" in session and session["loggedin"] and "user" in session:
@@ -304,7 +302,6 @@ def min():
             for key_search in search_list:
                 for person in Person.objects:
                     for product in person.Product:
-                        # print(product['Name'])
                         product_list_0 = product['Name'].upper()
                         product_list = product_list_0.split()
                         for key_product in product_list:
