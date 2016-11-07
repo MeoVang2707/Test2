@@ -55,13 +55,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#about_us">About Us</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#portfolio">Cú Mèo</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
@@ -69,12 +66,73 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li>
+                      <a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <form method="get" class="td-search-form" action="http://k2nblog.com/" style="opacity: 1;">
+                                    <div role="search" class="td-head-form-search-wrap">
+                                        <div class="row">
+                                          <div class="col-xs-12 col-md-8">
+                                            <input id="td-header-search" type=  "text" value="" name="s" autocomplete="off">
+                                          </div>
+                                          <div class="col-xs-6 col-md-4">
+                                              <input class="wpb_button wpb_btn-inverse btn" type="submit" id="td-header-search-top" value="Search">
+                                          </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            <div id="td-aj-search"></div>
+                      </div>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
+
+    <style>
+        .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+            color: #fed136;
+            background: transparent;
+        }
+        #td-header-search {
+            width: 235px;
+            height: 32px;
+            margin: 0;
+            border-right: 0;
+            line-height: 17px;
+            border-color: #e1e1e1;
+        }
+        .td-search-form {
+            margin: 20px;
+        }
+
+        .td-drop-down-search .btn {
+            position: absolute;
+            height: 32px;
+            min-width: 67px;
+            line-height: 17px;
+            padding: 7px 15px 8px;
+            text-shadow: none;
+            vertical-align: top;
+            right: 20px;
+            margin: 0 !important;
+            -webkit-transition: background-color 0.4s;
+            -moz-transition: background-color 0.4s;
+            -o-transition: background-color 0.4s;
+            transition: background-color 0.4s;
+        }
+
+
+        .pic-scale {
+            height: 496px;
+            width: 359px;
+        }
+
+    </style>
 
     <!-- Header -->
     <header>
@@ -87,61 +145,46 @@
         </div>
     </header>
 
+    <!-- About Us Section -->
+    <section id="about_us">
+        <div class="container">
+            <div class="col-lg-12 text-center">
+                <h1> ABOUT US </h1>
+                <h2> ~*~ </h2>
+                <p>
+                    Bạn càng đọc nhiều, bạn càng biết nhiều. Bạn càng học nhiều, bạn càng đi nhiều.<br>
+                    The more that you read, the more things you will know. The more that you learn, the more places you’ll go.<br>
+                    <strong> - Dr Seuss - </strong>
+                </p>
+            </div>
 
-    <!-- Portfolio Grid Section -->
+        </div>
+    </section>
+
+    <!-- Library Grid Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Tất cả sách</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Thư Viện Cú Mèo</h2>
+                    <h3 class="section-subheading text-muted">Nơi những cuốn sách tìm đường đến bạn.</h3>
                 </div>
             </div>
-            <div class="w3-row-padding">
+            <div class="row">
                 {% for user in user_list %}
                     {% for product in user.Product %}
-                        <div class="w3-third portfolio-item">
+                        <div class=" col-md-4 col-sm-6 portfolio-item">
                             <a href="#{{ product.Name }}" class="portfolio-link" data-toggle="modal">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content">
                                         <i class="fa fa-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="{{ product.Image }}" class="img-responsive" alt="{{ product.Name }}" width="500px">
+                                <img src="{{ product.Image }}" class="img-responsive pic-scale" alt="{{ product.Image }}">
                             </a>
                             <div class="portfolio-caption">
                                 <h4>{{ product.Name }}</h4>
-                                <p class="text-muted"><b>Giá:</b> {{ product.Price }}</p>
-                            </div>
-                        </div>
-                        <!-- Portfolio Modal 1 -->
-                        <div class="portfolio-modal modal fade" id="{{ product.Name }}" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="close-modal" data-dismiss="modal">
-                                        <div class="lr">
-                                            <div class="rl">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-lg-8 col-lg-offset-2">
-                                                <div class="modal-body">
-                                                    <!-- Project Details Go Here -->
-                                                    <h2>{{ product.Name }}</h2>
-                                                    <p class="item-intro text-muted">Mario Puzo</p>
-                                                    <img class="img-responsive img-centered" src="../static/image/Bo_gia.jpg" alt="The Godfather">
-                                                    <p>Uploaded by Hoang</p>
-                                                    <p>Contact me: via...</p>
-                                                    <p class="text-muted"><b>Người bán:</b> {{ user.Name }}</p>
-                                                    <p class="text-muted"><b>Liên hệ:</b> {{ user.Contact }}</p>
-                                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <p class="text-muted">Novel</p>
                             </div>
                         </div>
                     {% endfor %}
@@ -149,7 +192,8 @@
             </div>
         </div>
     </section>
-        <!-- Team Section -->
+
+    <!-- Team Section -->
     <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -198,7 +242,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- Contact Section -->
     <section id="contact">
@@ -272,6 +315,47 @@
             </div>
         </div>
     </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    {% for user in user_list %}
+          {% for product in user.Product %}
+                <!-- Portfolio Modal 1 -->
+                <div class="portfolio-modal modal fade" id="{{ product.Name }}" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="close-modal" data-dismiss="modal">
+                                <div class="lr">
+                                    <div class="rl">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-8 col-lg-offset-2">
+                                        <div class="modal-body">
+                                            <!-- Project Details Go Here -->
+                                            <h2>{{ product.Name }}</h2>
+                                            <p class="item-intro text-muted">Mario Puzo</p>
+                                            <img class="img-responsive img-centered pic-scale" src="{{ product.Image }}" alt="{{ product.Image }}">
+                                            <p>Uploaded by Hoang</p>
+                                            <p>Contact me: via...</p>
+                                            <ul class="list-inline">
+                                                <li>Ngày đăng: meme</li>
+                                                <li>Tình trạng: Mới 99%</li>
+                                                <li>Thể loại: Tiểu thuyết cổ điển</li>
+                                            </ul>
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          {% endfor %}
+    {% endfor %}
 
     <!-- jQuery -->
     <script src="../static/vendor/jquery/jquery.min.js"></script>
