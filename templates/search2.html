@@ -7,8 +7,8 @@
           <div class="w3-container w3-white">
             <p><b>Tên: </b>{{ search.product_name }}</p>
             <p><b>Giá (nghìn VNĐ): </b>{{ search.product_price }}</p>
-            <p><b>Người bán: </b><a href="https://test-2-howly.herokuapp.com/profile/{{ search.user }}">{{ search.user }}</a></p>
-            <p><b>Liên hệ: </b>{{ search.contact }}</p>
+            <p><b>Người bán: </b><a href="http://127.0.0.1:5000/profile/{{ search.user_name }}">{{ search.user_name }}</a></p>
+            <p><b>Liên hệ: </b>{{ search.user_contact }}</p>
           </div>
         </div>
       {% endfor %}
