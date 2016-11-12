@@ -86,15 +86,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <form method="post" action="{{ url_for("profile", name = user.Name) }}" enctype="multipart/form-data">
       <div class="w3-group">
         <label>Tên sản phẩm</label>
-        <input class="w3-input w3-border" type="text" name="name">
+        <input class="w3-input w3-border" type="text" name="name" required data-validation-required-message="Please enter book name.">
       </div>
       <div class="w3-group">
         <label>Giá bán (nghìn VNĐ): </label>
-        <input class="w3-input w3-border" type="number" name="price">
+        <input class="w3-input w3-border" type="number" name="price" required data-validation-required-message="Please enter book price.">
       </div>
       <div class="w3-group">
         <label>Ảnh sản phẩm</label>
-        <input class="w3-input w3-border" type="file" name="image">
+        <input class="w3-input w3-border" type="file" name="image" required data-validation-required-message="Please choose image.">
       </div>
       <button type="submit" class="w3-btn w3-padding w3-margin-bottom"><i class="material-icons">add</i>  Thêm</button>
     </form>
