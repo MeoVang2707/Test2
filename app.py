@@ -140,7 +140,7 @@ def edit(user_id, product_id):
                 if Name != "":
                     product["Name"] = Name
                 if Price != "":
-                    product["Price"] = Price
+                    product["Price"] = int(Price)
                 user_edit.save()
                 break
         for x in product_all.objects:
@@ -149,7 +149,7 @@ def edit(user_id, product_id):
                     if Name != "":
                         product["product_name"] = Name
                     if Price != "":
-                        product["product_price"] = Price
+                        product["product_price"] = int(Price)
                     x.save()
                     break
         return redirect(url_for("profile", name = user_edit.Name))
