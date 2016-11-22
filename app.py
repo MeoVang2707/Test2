@@ -52,7 +52,6 @@ def profile(name):
                 Name = request.form["name"]
                 Price = request.form["price"]
                 Image = request.files["image"]
-                Description = request.form["description"]
                 if Image is not None:
                     filename = secure_filename(Image.filename)
                     Image_link_real = path.join(UPLOADS_IMAGE, filename)
@@ -61,9 +60,8 @@ def profile(name):
                     Test["Name"] = Name
                     Test["Price"] = int(Price)
                     Test["Image"] = Image_link_fake
-                    Test["id"] = str(user.id) + str(randint(1,9999999999))
+                    Test["id"] = str(user.id) + str(randint(1,9999999))
                     Test["Time"] = datetime.now()
-                    Test["Description"] = Description
                     user.Product.insert(0, Test)
                     user.save()
                     all_product["user_name"] = user.Name
@@ -71,9 +69,8 @@ def profile(name):
                     all_product["product_name"] = Name
                     all_product["product_price"] = int(Price)
                     all_product["product_image"] = Image_link_fake
-                    all_product["Time"] = Test["Time"]
+                    all_product["Time"] = datetime.now()
                     all_product["product_id"] = Test["id"]
-                    all_product["product_description"] = Description
                     for x in product_all.objects:
                         x.page.insert(0, all_product)
                         x.save()
@@ -83,7 +80,6 @@ def profile(name):
     else:
         return redirect(url_for("login"))
 
-# @app.route('/')
 @app.route('/login', methods=["GET", "POST"])
 def login():
     if request.method == "GET":
@@ -144,7 +140,7 @@ def edit(user_id, product_id):
                 if Name != "":
                     product["Name"] = Name
                 if Price != "":
-                    product["Price"] = Price
+                    product["Price"] = int(Price)
                 user_edit.save()
                 break
         for x in product_all.objects:
@@ -153,7 +149,7 @@ def edit(user_id, product_id):
                     if Name != "":
                         product["product_name"] = Name
                     if Price != "":
-                        product["product_price"] = Price
+                        product["product_price"] = int(Price)
                     x.save()
                     break
         return redirect(url_for("profile", name = user_edit.Name))
@@ -180,13 +176,12 @@ def register():
         else:
             return redirect(url_for("register"))
 
-# print(product_all.objects[0].page[0]["user_name"])
-
-@app.route('/', methods=["GET", "POST"])
-def index():
+@app.route('/')
+@app.route('/Home_page', methods=["GET", "POST"])
+def home_page2():
     if "loggedin" in session and session["loggedin"] and "user" in session:
         if request.method == "GET":
-            return render_template("index.html", user_list = product_all.objects[0].page[0:6], name = session["user"])
+            return render_template("home_page_name.html", user_list = product_all.objects[0].page[0:3], name = session["user"])
         elif request.method == "POST":
             search_key_0 = request.form["search"]
             search_key = search_key_0.upper()
@@ -208,7 +203,28 @@ def index():
                                     Search.append(Search_list)
             return render_template("search.html", search_list=Search, search_key=search_key_0, name = session["user"])
     else:
-        return redirect(url_for("login"))
+        if request.method == "GET":
+            return render_template("home_page2.html", user_list = product_all.objects[0].page[0:3])
+        if request.method == "POST":
+            search_key_0 = request.form["search"]
+            search_key = search_key_0.upper()
+            search_list = search_key.split()
+            Search = []
+            for key_search in search_list:
+                for person in product_all.objects:
+                    for product in person.page:
+                        product_list_0 = product['product_name'].upper()
+                        product_list = product_list_0.split()
+                        for key_product in product_list:
+                            if key_product == key_search:
+                                Search_list = product
+                                if Search_list in Search:
+                                    Search_result = False
+                                else:
+                                    Search_result = True
+                                if Search_result:
+                                    Search.append(Search_list)
+            return render_template("search2.html", search_list = Search, search_key = search_key_0)
 
 @app.route('/<number>', methods=["GET", "POST"])
 def hp_num(number):
@@ -216,11 +232,9 @@ def hp_num(number):
     if "loggedin" in session and session["loggedin"] and "user" in session:
         if request.method == "GET":
             if num == 0:
-                return redirect(url_for("index", name = session["user"]))
-            elif 6*(num+1) >= len(product_all.objects[0].page):
-                return render_template("home_page_name_num_end.html", user_list = product_all.objects[0].page[6*num:6*(num+1)], name = session["user"], num =num)
+                return redirect(url_for("home_page", name = session["user"]))
             else:
-                return render_template("home_page_name_num.html", user_list = product_all.objects[0].page[6*num:6*(num+1)], name = session["user"], num =num)
+                return render_template("home_page_name_num.html", user_list = product_all.objects[0].page[3*num:3*(num+1)], name = session["user"], num =num)
         elif request.method == "POST":
             search_key_0 = request.form["search"]
             search_key = search_key_0.upper()
@@ -242,7 +256,30 @@ def hp_num(number):
                                     Search.append(Search_list)
             return render_template("search.html", search_list=Search, search_key=search_key_0, name = session["user"])
     else:
-        return redirect(url_for("login"))
+        if request.method == "GET":
+            if num == 0:
+                return redirect(url_for("home_page2"))
+            return render_template("home_page2_num.html", user_list = product_all.objects[0].page[3*num:3*(num+1)], num = num)
+        if request.method == "POST":
+            search_key_0 = request.form["search"]
+            search_key = search_key_0.upper()
+            search_list = search_key.split()
+            Search = []
+            for key_search in search_list:
+                for person in product_all.objects:
+                    for product in person.page:
+                        product_list_0 = product['product_name'].upper()
+                        product_list = product_list_0.split()
+                        for key_product in product_list:
+                            if key_product == key_search:
+                                Search_list = product
+                                if Search_list in Search:
+                                    Search_result = False
+                                else:
+                                    Search_result = True
+                                if Search_result:
+                                    Search.append(Search_list)
+            return render_template("search2.html", search_list = Search[0:3], search_key = search_key_0)
 
 @app.route('/Home_page/<name>', methods=["GET", "POST"])
 def home_page(name):
@@ -250,7 +287,7 @@ def home_page(name):
     if "loggedin" in session and session["loggedin"]:
         if "user" in session and session["user"] == name_user:
             if request.method == "GET":
-                return render_template("home_page_name.html", user_list = product_all.objects[0].page[0:6], name = name_user)
+                return render_template("home_page_name.html", user_list = product_all.objects[0].page[0:3], name = name_user)
             elif request.method == "POST":
                 search_key_0 = request.form["search"]
                 search_key = search_key_0.upper()
@@ -273,7 +310,7 @@ def home_page(name):
                 return render_template("search.html", search_list = Search, search_key = search_key_0, name = name_user)
         else:
             if request.method == "GET":
-                return render_template("home_page_name_guest.html", user_list = product_all.objects[0].page[0:6], name = session["user"])
+                return render_template("home_page_name_guest.html", user_list = product_all.objects[0].page[0:3], name = session["user"])
             elif request.method == "POST":
                 search_key_0 = request.form["search"]
                 search_key = search_key_0.upper()
