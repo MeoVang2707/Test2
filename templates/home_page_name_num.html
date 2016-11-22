@@ -1,20 +1,73 @@
-{% extends "test_name.html" %}
+{% extends "trang_chu_nhap.html" %}
 {% block content %}
-   <div class="w3-row-padding">
-      {% for product in user_list %}
-          <div class=" w3-third w3-container w3-margin-bottom">
-              <img src="{{ product.product_image }}" alt="{{ product.product_name }}" style="width:100%" height="450" class="w3-hover-opacity">
-              <div class="w3-container w3-white">
-                <p><b>Tên: </b>{{ product.product_name }}</p>
-                <p><b>Giá (nghìn VNĐ): </b>{{ product.product_price }}</p>
-                <p><b>Người bán: </b><a href="https://test-2-howly.herokuapp.com/profile/{{ product.user_name }}">{{ product.user_name }}</a></p>
-                <p><b>Liên hệ: </b>{{ product.user_contact }}</p>
-              </div>
-          </div>
-      {% endfor %}
-   </div>
-   <div class="w3-clear nextprev w3-padding-32">
-      <a class="w3-left w3-btn w3-margin-left" href="https://test-2-howly.herokuapp.com/{{ num - 1 }}">&#10094; Previous</a>
-      <a class="w3-right w3-btn w3-margin-right" href="https://test-2-howly.herokuapp.com/{{ num + 1 }}">Next &#10095;</a>
-   </div>
+
+   <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Thư Viện Cú Mèo</h2>
+                    <h3 class="section-subheading text-muted">Nơi những cuốn sách tìm đường đến bạn.</h3>
+                </div>
+            </div>
+            <div class="row">
+                {% for product in user_list %}
+                    <div class=" col-md-4 col-sm-6 portfolio-item">
+                        <a href="#{{ product.product_id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="{{ product.product_image }}" class="img-responsive pic-scale" alt="{{ product.product_image }}">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>{{ product.product_name }}</h4>
+                            <p class="text-muted">{{ product.product_price }}k</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Pagination -->
+       <div class="w3-clear nextprev w3-padding-32">
+          <a class="w3-left w3-btn w3-margin-left" href="https://test-2-howly.herokuapp.com/{{ num - 1 }}">&#10094; Previous</a>
+          <a class="w3-right w3-btn w3-margin-right" href="https://test-2-howly.herokuapp.com/{{ num + 1 }}">Next &#10095;</a>
+       </div>
+   </section>
+
+    {% for product in user_list %}
+        <!-- Portfolio Modal 1 -->
+        <div class="portfolio-modal modal fade" id="{{ product.product_id }}" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here -->
+                                    <h2>{{ product.product_name }}</h2>
+                                    <img class="img-responsive img-centered pic-scale" src="{{ product.product_image }}" alt="{{ product.product_image }}">
+                                    <p>Uploaded by {{ product.user_name }}</p>
+                                    <p>Contact: {{ product.user_contact }}</p>
+                                    <ul class="list-inline">
+                                        <li>Ngày đăng: {{ product.Time.day }}-{{ product.Time.month }}-{{ product.Time.year }} </li>
+                                        <li>Tình trạng: Mới 99%</li>
+                                        <li>Thể loại: Tiểu thuyết cổ điển</li>
+                                    </ul>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
 {% endblock %}
