@@ -21,9 +21,7 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../static/googleapis3.css">
     <link rel="shortcut icon" href="http://vanvat.net/hinhanh/anhto/1493hinh-anh-cu-meo-cartoon-dang-yeu.jpg" />
-
     <!-- Theme CSS -->
     <link href="../static/css/agency.min.css" rel="stylesheet">
     <link href="../static/team-avatar.css" rel="stylesheet" type="text/css">
@@ -47,7 +45,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="https://test-2-howly.herokuapp.com/">Trao Doi Sach</a>
+                <a class="navbar-brand page-scroll" href="https://test-2-howly.herokuapp.com//">Trao Doi Sach</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -57,7 +55,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="https://test-2-howly.herokuapp.com">Trang chủ</a>
+                        <a class="dropdown-toggle" id="login" data-toggle="dropdown">Đăng nhập</a>
+                        <div class="dropdown-menu" aria-labelledby="login">
+                            <form method="post" action="{{ url_for("login") }}" class="w3-container" action="form.asp">
+                                <div class="w3-section">
+                                    <input type="text" name="usrname" placeholder="Tên đăng nhập..." class="form-password form-control" id="form-username">
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="form-password">Mật khẩu</label>
+                                    <input type="password" name="psw" placeholder="Mật khẩu..." class="form-password form-control" id="form-password">
+                                </div>
+                                <button class="w3-btn-block w3-green w3-section w3-padding" type="submit">Đăng nhập</button>
+                            </form>
+                        </div>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Cú Mèo</a>
@@ -66,10 +76,24 @@
                         <a class="page-scroll" href="#team">Team</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Thêm đồ cần bán</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="https://test-2-howly.herokuapp.com/logout">Đăng xuất</a>
+                        <a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Tìm kiếm
+{#                           <i class="fa fa-search" aria-hidden="true"></i>#}
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <form method="post" class="td-search-form" action="{{ url_for("index") }}" style="opacity: 1;">
+                                <div role="search" class="td-head-form-search-wrap">
+                                   <div class="row">
+                                       <div class="col-xs-12 col-md-8">
+                                            <input id="td-header-search" type="text" value="" name="search" autocomplete="off" placeholder="Tên sách">
+                                       </div>
+                                       <div class="col-xs-6 col-md-4">
+                                           <input class="wpb_button wpb_btn-inverse btn" type="submit" id="td-header-search-top" value="Search">
+                                       </div>
+                                   </div>
+                                </div>
+                            </form>
+                            <div id="td-aj-search"></div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -125,7 +149,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Thư viện Cú Mèo</div>
                 <div class="intro-heading">~Xin Chào~</div>
-{#                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftest-2-howly.herokuapp.com%2Flogin&h=uAQFTJLny" class="page-scroll btn btn-xl">Join us</a>#}
+                <a href="#contact" class="page-scroll btn btn-xl">Join us</a>
             </div>
         </div>
     </header>
@@ -147,86 +171,9 @@
     </section>
 
     <!-- Library Grid Section -->
+    {% block content %}
+    {% endblock %}
 
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Thư Viện Cú Mèo</h2>
-                    <h3 class="section-subheading text-muted">Tất cả sách của bạn.</h3>
-                </div>
-            </div>
-            <div class="row">
-                {% for key in user.Product %}
-                    <div class=" col-md-4 col-sm-6 portfolio-item">
-                        <a href="#{{ key.id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="{{ key.Image }}" class="img-responsive pic-scale" alt="{{ key.Image }}">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>{{ key.Name }}</h4>
-                            <p class="text-muted">{{ key.Price }}k</p>
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
-
-    {% for key in user.Product %}
-        <!-- Portfolio Modal 1 -->
-        <div class="portfolio-modal modal fade" id="{{ key.id }}" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2">
-                                <div class="modal-body">
-                                    <!-- Project Details Go Here -->
-                                    <h2>{{ key.Name }}</h2>
-                                    <ul class="list-inline">
-                                        <li><button onclick="document.getElementById('{{ key.Name }}').style.display='block'" class="w3-green"><i class="material-icons">mode_edit</i>  Edit</button></li>
-                                        <li><button class="w3-green"><i class="material-icons">delete</i><a href="https://test-2-howly.herokuapp.com/delete/{{ user.id }}/{{ key.id }}">  Delete</a></button></li>
-                                    </ul>
-                                    <div id="{{ key.Name }}" class="w3-modal">
-                                        <div class="w3-modal-content w3-card-8 w3-animate-zoom" style="max-width:600px">
-                                          <div class="w3-center"><br>
-                                                <span onclick="document.getElementById('{{ key.Name }}').style.display='none'" class="w3-closebtn w3-hover-red w3-container w3-padding-8 w3-display-topright" title="Close Modal">&times;</span>
-                                          </div>
-                                          <form method="post" action="{{ url_for("edit", user_id = user.id, product_id = key.id) }}" class="w3-container" action="form.asp">
-                                            <div class="w3-section">
-                                              <label><b>Tên:</b></label>
-                                              <input class="w3-input w3-border" type="text" placeholder="{{ key.Name }}" name="edit_name">
-                                              <label><b>Giá:</b></label>
-                                              <input class="w3-input w3-border" type="text" placeholder="{{ key.Price }}" name="edit_price">
-                                              <button class="w3-btn-block w3-green w3-section w3-padding" type="submit">Edit</button>
-                                            </div>
-                                          </form>
-                                        </div>
-                                    </div>
-                                    <img class="img-responsive img-centered pic-scale" src="{{ key.Image }}" alt="{{ key.Name }}">
-                                    <p>Ngày đăng: {{ key.Time.day }}-{{ key.Time.month }}-{{ key.Time.year }} </p>
-                                    <p>Miêu tả: {{ key.Description }}</p>
-                                    <p>Thể loại: {{ key.Type }}</p>
-                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    {% endfor %}
 
     <!-- Team Section -->
     <section id="team" class="bg-gray">
@@ -283,52 +230,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Thêm sách muốn bán:</h2>
+                    <h2 class="section-heading">Đăng kí</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form method="post" action="{{ url_for("profile", name = user.Name) }}" enctype="multipart/form-data">
+                    <form method="post" action="{{ url_for("register") }}" enctype="multipart/form-data">
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label class="w3-text-white">Tên sách:</label>
-                                    <input type="text" class="form-control" placeholder="Tên sách" name="name" required data-validation-required-message="Please enter name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <label class="w3-text-white">Giá bán(nghìn VNĐ):</label>
-                                    <input type="number" class="form-control" placeholder="Giá" name="price" required data-validation-required-message="Please enter price.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <label class="w3-text-white">Ảnh sản phẩm:</label>
-                                    <input type="file" class="form-control" placeholder="Giá" name="image" required data-validation-required-message="Please choose image.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
+                            <div class="form-group">
+                                <label class="w3-text-white">Tên bạn:</label>
+                                <input type="text" class="form-control" placeholder="Tên bạn..." name="name" required data-validation-required-message="Please enter name.">
+                                <p class="help-block text-danger"></p>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label class="w3-text-white">Miêu tả về sách: </label>
-                                    <input class="form-control" type="text" placeholder="Nội dung sách, tình trạng sách...." name="description" required data-validation-required-message="Please enter a text.">
-{#                                    <p class="help-block text-danger"></p>#}
-                                </div>
-                                <div class="form-group">
-                                    <label class="w3-text-white">Thể loại:</label>
-                                    <select name="type">
-                                        <option>Văn học</option>
-                                        <option>Tiểu thuyết</option>
-                                        <option>Giáo trình</option>
-                                        <option>Tiếng Anh</option>
-                                        <option>Tham khảo</option>
-                                        <option>Khác</option>
-                                    </select>
-                                </div>
+                            <div class="form-group">
+                                <label class="w3-text-white">Email(Số điện thoại):</label>
+                                <input type="text" class="form-control" placeholder="Liên hệ..." name="contact" required data-validation-required-message="Please enter contact.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <label class="w3-text-white">Password:</label>
+                                <input type="password" class="form-control" placeholder="Mật khẩu" name="password" required data-validation-required-message="Please enter password.">
+                                <p class="help-block text-danger"></p>
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Thêm</button>
+                                <button type="submit" class="btn btn-xl">Đăng kí</button>
                             </div>
                         </div>
                     </form>
@@ -386,5 +313,3 @@
 </body>
 
 </html>
-
-
