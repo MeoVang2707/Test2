@@ -182,7 +182,7 @@ def register():
         else:
             return redirect(url_for("register"))
 
-@app.route('/ahihi', methods=["GET", "POST"])
+@app.route('/', methods=["GET", "POST"])
 def index():
     if "loggedin" in session and session["loggedin"] and "user" in session:
         if request.method == "GET":
@@ -249,7 +249,6 @@ def hp_num(number):
         else:
             return render_template("homepage_num.html", user_list = product_all.objects[0].page[6*num:6*(num+1)], num =num)
 
-@app.route('/', methods=["GET", "POST"])
 @app.route('/nhohon30k')
 def min_30k():
     if "loggedin" in session and session["loggedin"] and "user" in session:
