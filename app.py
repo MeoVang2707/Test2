@@ -89,7 +89,7 @@ def profile(name):
 @app.route('/login', methods=["GET", "POST"])
 def login():
     if request.method == "GET":
-        return render_template("homepage.html")
+        return render_template("homepage.html", user_list = product_all.objects[0].page[0:6])
     elif request.method == "POST":
         username = request.form["usrname"]
         password = request.form["psw"]
@@ -146,7 +146,7 @@ def edit(user_id, product_id):
                 if Name != "":
                     product["Name"] = Name
                 if Price != "":
-                    product["Price"] = Price
+                    product["Price"] = int(Price)
                 user_edit.save()
                 break
         for x in product_all.objects:
@@ -155,7 +155,7 @@ def edit(user_id, product_id):
                     if Name != "":
                         product["product_name"] = Name
                     if Price != "":
-                        product["product_price"] = Price
+                        product["product_price"] = int(Price)
                     x.save()
                     break
         return redirect(url_for("profile", name = user_edit.Name))
@@ -182,7 +182,7 @@ def register():
         else:
             return redirect(url_for("register"))
 
-@app.route('/', methods=["GET", "POST"])
+@app.route('/ahihi', methods=["GET", "POST"])
 def index():
     if "loggedin" in session and session["loggedin"] and "user" in session:
         if request.method == "GET":
@@ -249,6 +249,7 @@ def hp_num(number):
         else:
             return render_template("homepage_num.html", user_list = product_all.objects[0].page[6*num:6*(num+1)], num =num)
 
+@app.route('/', methods=["GET", "POST"])
 @app.route('/nhohon30k')
 def min_30k():
     if "loggedin" in session and session["loggedin"] and "user" in session:
