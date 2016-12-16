@@ -3,7 +3,6 @@ from mongoengine import *
 from os import *
 from werkzeug.utils import secure_filename
 
-# @ds053126.mlab.com:53126/hoang
 db_name = "hoang"
 host = "ds053126.mlab.com"
 port = 53126

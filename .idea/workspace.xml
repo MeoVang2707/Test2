@@ -1,7 +1,582 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff8254f9-a994-4ebb-b86f-d5a079f7c48c" name="Default" comment="" />
+    <list default="true" id="ff8254f9-a994-4ebb-b86f-d5a079f7c48c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/about/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/about/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/about/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/about/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/header-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/logos/aetuts.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/logos/creative-market.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/logos/designmodo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/logos/envato.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/logos/microlancer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/logos/themeforest.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/logos/wordpress.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/map-image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/dreams-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/dreams.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/escape-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/escape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/golden-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/golden.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/roundicons-free.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/roundicons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/startup-framework-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/startup-framework.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/treehouse-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/treehouse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/team/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/team/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/P_1st_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/agency.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/agency.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/agency.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/agency.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/contact_me.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jqBootstrapValidation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/less/agency.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/mail/contact_me.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scss/agency.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/team-avatar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/screen-reader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/._license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/HELP/._index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/HELP/assets/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/HELP/assets/css/._reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/HELP/assets/css/._style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/HELP/assets/img/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/HELP/assets/img/._columns.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/HELP/assets/img/._contact-html.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/HELP/assets/img/._cuffon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/HELP/assets/img/._gallery-blocks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/HELP/assets/img/._html.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/HELP/assets/img/._send-mail-config.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/HELP/assets/img/._tabs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/HELP/assets/img/._tf_180x100_v2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/._carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/._contact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/._index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/._page-icons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/._player-skin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/._send-mail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/css/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/css/._carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/css/._comments.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/css/._elements.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/css/._flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/css/._jquery.tweet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/css/._lessframework.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/css/._lof-slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/css/._reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/css/._social.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/css/._style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/css/._superfish.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/css/._widgets.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._arrow-down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._arrow-left-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._arrow-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._arrow-right-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._arrow-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._arrow-up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._bird.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._button-control-play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._button-control.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._button-control.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._icon-comments.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._icon-format-audio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._icon-format-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._icon-format-link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._icon-format-post.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._icon-format-quote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._icon-format-video.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._icon-link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._icon-popup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._icon-tags.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._icon-user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._info-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._info-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._info-red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._info-yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._layouts_08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._layouts_12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._load-indicator.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._main-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._meta-bg-vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._meta-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._noise-all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._noise.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._player-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._social" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._toggle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/._vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/bullets/._arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/bullets/._check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/bullets/._heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/bullets/._plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/bullets/._star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/._54x54.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/._featured-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/._featured-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/._featured-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/._gallery-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/._gallery-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/._gallery-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/._work-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/carousel/._01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/carousel/._02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/carousel/._03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/carousel/._04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/carousel/._05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/carousel/._06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/carousel/._07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/featured/._01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/featured/._02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/featured/._03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/featured/._04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/featured/._05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/featured/._06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._01_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._02_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._03_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._04_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._05_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._06_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/dummies/slides/._07_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._arrow32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._arrowright32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._article32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._bag32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._bargraph32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._block32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._box32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._boxdownload32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._boxupload32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._camera32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._cameraminus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._cameraplus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._camerastar32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._cardgame32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._check32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._circleleft32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._circleright32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._clock32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._comment32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._commentblack32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._contactbook32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._contactcard32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._cup32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._download32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._exchange32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._folder32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._folderblock32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._folderminus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._folderplus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._gear32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._glitter32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._heart32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._home32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._leftarrow32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._leftturnarrow32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._license.rtf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._lightbulb32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._linedpaper32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._linedpapercheck32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._linedpaperlock32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._linedpaperminus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._linedpaperpencil32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._linedpaperplus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._lock32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._mail32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._mailblock32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._mailminus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._mailopened32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._mailplus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._mailstar32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._mapleleaf32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._melody32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._minus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._moneyreceipt32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._monitor32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._mouse32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._note32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._notecheck32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._notepencil32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._paper32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._papercheck32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._paperheart32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._paperlock32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._paperminus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._papermusic32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._paperpencil32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._paperphoto32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._paperplus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._paperstar32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._pencil32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._pencilplus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._phone32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._phonebook32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._plug32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._plus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._printer32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._questionbook32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._radio32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._recycle32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._risegraph32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._rss32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._scissors32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._search32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._shield32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._shieldcross32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._shoppingcart32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._sleep32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._slide32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._smile32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._spanner32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._speaker32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._speakermute32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._star32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._stop32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._turnright32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._unlock32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._upload32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._user32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._userblock32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._userminus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._userplus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._users32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._usersblock32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._usersminus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._usersplus32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._wand32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._warning32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._wordpress32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/mono-icons/._wrench32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._500px.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._about_me.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._add_this.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._amazon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._aol.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._app_store.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._app_store_alt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._apple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._bebo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._behance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._bing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._blip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._blogger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._coroflot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._custom-bg-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._custom-bg-pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._custom-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._custom-icon-comment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._custom-icon-photo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._custom-icon-retweet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._daytum.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._delicious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._design_bump.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._designfloat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._deviant_art.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._digg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._digg_alt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._dribbble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._drupal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._ebay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._email.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._ember_app.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._etsy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._feed_burner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._flickr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._foodspotting.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._forrst.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._foursquare.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._friendsfeed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._friendstar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._gdgt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._github.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._google_buzz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._google_talk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._gowalla.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._gowalla_pin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._grooveshark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._hyves.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._icondock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._icq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._identica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._imessage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._itune.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._last.fm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._meetup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._metacafe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._mixx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._mobileme.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._mr_wong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._msn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._myspace.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._newsvine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._paypal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._photobucket.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._picasa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._pinterest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._podcast.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._posterous.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._qik.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._quora.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._reddit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._retweet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._scribd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._share_this.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._skype.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._slashdot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._slideshare.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._smugmug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._sound_cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._spotify.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._squidoo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._stackoverflow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._stumbleupon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._technorati.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._tumblr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._twitter_bird.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._viddler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._vimeo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._virb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._w3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._white_facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._white_heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._white_linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._white_pinterest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._white_podcast.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._white_rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._white_share_this.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._white_star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._white_twitter_bird.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._white_vimeo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._wikipedia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._windows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._wordpress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._xing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._yahoo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._yahoo_buzz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._yelp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/img/social/._youtube.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._Jplayer.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._css3-mediaqueries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._form-validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._jquery.columnizer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._jquery.easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._jquery.flexslider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._jquery.isotope.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._jquery.jcarousel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._jquery.jplayer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._lof-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._moveform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._poshytip-1.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._prettyPhoto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._tabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/._tweet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/._GPL-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/._MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/._README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/._demo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/._src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/demo/._demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/demo/._includes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/demo/includes/._bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/demo/includes/._demos.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/demo/includes/._demos.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/demo/includes/._jquery-1.4.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/demo/includes/._sh_main.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/demo/includes/._sheet_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/._jquery.poshytip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/._jquery.poshytip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/._tip-darkgray" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/._tip-green" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/._tip-skyblue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/._tip-twitter" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/._tip-violet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/._tip-yellow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/._tip-yellowsimple" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-darkgray/._tip-darkgray.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-darkgray/._tip-darkgray.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-darkgray/._tip-darkgray_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-green/._tip-green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-green/._tip-green_arrows.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-skyblue/._tip-skyblue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-skyblue/._tip-skyblue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-skyblue/._tip-skyblue_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-twitter/._tip-twitter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-twitter/._tip-twitter_arrows.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-violet/._tip-violet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-violet/._tip-violet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-violet/._tip-violet_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-yellow/._tip-yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-yellow/._tip-yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-yellow/._tip-yellow_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-yellowsimple/._tip-yellowsimple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/poshytip-1.1/src/tip-yellowsimple/._tip-yellowsimple_arrows.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/._README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/._css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/._images" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/._index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/._js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/._xhr_response.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/css/._prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/._prettyPhoto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/._dark_rounded" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/._dark_square" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/._default" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/._facebook" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/._light_rounded" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/._light_square" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/dark_rounded/._btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/dark_rounded/._btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/dark_rounded/._contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/dark_rounded/._default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/dark_rounded/._loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/dark_rounded/._sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/dark_square/._btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/dark_square/._btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/dark_square/._contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/dark_square/._default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/dark_square/._loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/dark_square/._sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/default/._default_thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/default/._loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/default/._sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/default/._sprite_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/default/._sprite_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/default/._sprite_x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/default/._sprite_y.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/facebook/._btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/facebook/._btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/facebook/._contentPatternBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/facebook/._contentPatternLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/facebook/._contentPatternRight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/facebook/._contentPatternTop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/facebook/._default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/facebook/._loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/facebook/._sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/light_rounded/._btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/light_rounded/._btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/light_rounded/._default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/light_rounded/._loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/light_rounded/._sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/light_square/._btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/light_square/._btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/light_square/._default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/light_square/._loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/images/prettyPhoto/light_square/._sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/js/._jquery-1.3.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/js/._jquery-1.4.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/prettyPhoto/js/._jquery.prettyPhoto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/superfish-1.4.8/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/superfish-1.4.8/css/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/superfish-1.4.8/css/._superfish.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/superfish-1.4.8/images/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/superfish-1.4.8/images/._arrows-ffffff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/superfish-1.4.8/js/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/tweet/._index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/js/tweet/._jquery.tweet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/less/._carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/less/._comments.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/less/._elements.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/less/._flexslider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/less/._lessframework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/less/._lof-slider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/less/._palette.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/less/._skin.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/less/._style.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/less/._widgets.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/player-skin/._jplayer-black-and-yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/player-skin/._jplayer-black-and-yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/__MACOSX/folder-files/html/player-skin/._jplayer-black-and-yellow.psd" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Test2.iml" afterPath="$PROJECT_DIR$/.idea/Test2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login_signup.html" afterPath="$PROJECT_DIR$/templates/login_signup.html" />
+    </list>
     <ignored path="Test2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -13,6 +588,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Test2$P_1st_test.coverage" NAME="P_1st_test Coverage Results" MODIFIED="1478356193600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test2$Test2.coverage" NAME="Test2 Coverage Results" MODIFIED="1477366390972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -27,21 +603,52 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2788">
-              <caret line="170" column="48" selection-start-line="170" selection-start-column="48" selection-end-line="170" selection-end-column="48" />
+            <state relative-caret-position="178">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
-                <element signature="e#576#602#0" expanded="false" />
-                <element signature="e#8254#12010#0" expanded="false" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_page_name.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/home_page_name.html">
+      <file leaf-file-name="P_1st_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/P_1st_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="260" column="22" selection-start-line="260" selection-start-column="22" selection-end-line="260" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_signup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login_signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -50,55 +657,25 @@
       <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
+            <state relative-caret-position="17">
               <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="landing.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/landing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
+            <state relative-caret-position="531">
+              <caret line="81" column="25" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="googleapis.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/googleapis.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cloudflare.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/cloudflare.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gooleapis_family_voltaire.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/gooleapis_family_voltaire.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="googleapis2.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/googleapis2.css">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -110,18 +687,18 @@
       <file leaf-file-name="home_page2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home_page2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="57" selection-start-line="62" selection-start-column="16" selection-end-line="65" selection-end-column="57" />
+            <state relative-caret-position="68">
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search2.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="search2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/search2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" column="110" selection-start-line="66" selection-start-column="110" selection-end-line="66" selection-end-column="110" />
+            <state relative-caret-position="567">
+              <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -134,9 +711,15 @@
       <list>
         <option value="Flask Main" />
         <option value="HTML File" />
+        <option value="Python Script" />
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -144,7 +727,6 @@
         <option value="$PROJECT_DIR$/Test2.py" />
         <option value="$PROJECT_DIR$/templates/Film.html" />
         <option value="$PROJECT_DIR$/templates/register.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/home_page.html" />
         <option value="$PROJECT_DIR$/templates/abc.html" />
         <option value="$PROJECT_DIR$/static/w3c.css" />
@@ -152,16 +734,19 @@
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/templates/profile_guest.html" />
         <option value="$PROJECT_DIR$/templates/search2.html" />
-        <option value="$PROJECT_DIR$/templates/login_signup.html" />
         <option value="$PROJECT_DIR$/templates/home_page_name_guest.html" />
         <option value="$PROJECT_DIR$/templates/home_page2.html" />
         <option value="$PROJECT_DIR$/templates/home_page_name.html" />
         <option value="$PROJECT_DIR$/templates/search.html" />
         <option value="$PROJECT_DIR$/templates/profile.html" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/static/googleapis.css" />
         <option value="$PROJECT_DIR$/static/gooleapis_family_voltaire.css" />
         <option value="$PROJECT_DIR$/templates/landing.html" />
+        <option value="$PROJECT_DIR$/static/stylesheet.css" />
+        <option value="$PROJECT_DIR$/P_1st_test.py" />
+        <option value="$PROJECT_DIR$/templates/login_signup.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -175,7 +760,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -202,6 +787,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,15 +837,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -267,7 +852,7 @@
       <recent name="C:\Users\Hoang\PycharmProjects\Test2\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Test2">
+  <component name="RunManager" selected="Python.P_1st_test">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -476,6 +1061,24 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="P_1st_test" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Test2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P_1st_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="Test2" type="PythonConfigurationType" factoryName="Python" singleton="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -494,12 +1097,16 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python.Test2" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.P_1st_test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Test2" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -512,16 +1119,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21669106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20278184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21513353" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21486267" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -573,30 +1180,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#8254#12010#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="213" column="50" selection-start-line="213" selection-start-column="50" selection-end-line="213" selection-end-column="50" />
-          <folding>
-            <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#8254#12010#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/profile_guest.html" />
-    <entry file="file://$PROJECT_DIR$/templates/search.html" />
     <entry file="file://$PROJECT_DIR$/templates/search2.html" />
     <entry file="file://$PROJECT_DIR$/templates/register.html" />
     <entry file="file://$PROJECT_DIR$/templates/profile.html" />
@@ -608,8 +1191,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#8254#12010#0" expanded="false" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -622,8 +1204,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#8254#12010#0" expanded="false" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -635,8 +1216,7 @@
         <state relative-caret-position="782">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#8254#12010#0" expanded="false" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -647,27 +1227,19 @@
         <state relative-caret-position="102">
           <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding>
-            <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#8254#12010#0" expanded="false" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Test_film/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Test_film/app.py" />
     <entry file="file://$PROJECT_DIR$/templates/profile.html" />
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#8254#12010#0" expanded="false" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -678,8 +1250,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#8254#12010#0" expanded="false" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -690,8 +1261,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#8254#12010#0" expanded="false" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -702,36 +1272,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#8254#12010#0" expanded="false" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/profile.html" />
-    <entry file="file://$USER_HOME$/Documents/Test_film/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Food/untitled2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Test_film/app.py" />
+    <entry file="file://$PROJECT_DIR$/../Food/untitled2.py" />
     <entry file="file://$PROJECT_DIR$/templates/abc.html" />
     <entry file="file://$PROJECT_DIR$/static/w3c.css" />
-    <entry file="file://$PROJECT_DIR$/../hackathon/hackathon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../hackathon/hackathon.py" />
     <entry file="file://$PROJECT_DIR$/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -753,13 +1304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -767,54 +1311,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login_signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="90" column="62" selection-start-line="90" selection-start-column="62" selection-end-line="90" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home_page_name.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2788">
-          <caret line="170" column="48" selection-start-line="170" selection-start-column="48" selection-end-line="170" selection-end-column="48" />
-          <folding>
-            <element signature="e#576#602#0" expanded="false" />
-            <element signature="e#8254#12010#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home_page2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="57" selection-start-line="62" selection-start-column="16" selection-end-line="65" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/search2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="110" selection-start-line="66" selection-start-column="110" selection-end-line="66" selection-end-column="110" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,7 +1322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +1329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,7 +1336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,14 +1343,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home_page2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/team-avatar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="260" column="22" selection-start-line="260" selection-start-column="22" selection-end-line="260" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login_signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/landing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
+        <state relative-caret-position="531">
+          <caret line="81" column="25" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/P_1st_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
           <folding />
         </state>
       </provider>
